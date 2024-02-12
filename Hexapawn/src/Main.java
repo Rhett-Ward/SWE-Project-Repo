@@ -52,6 +52,20 @@ public class Main {
                 case 1:
                     System.out.println("Where will you move?");
                     try {
+                        /* a theoretical code block that would make a move based off of a random choice
+                        of available moves from an arraylist made from a file
+
+                        Reader r = new Reader;
+                        r.In(text file);
+                        int b = 0;
+                        if my turn (to lazy to write implementation for this rn sorry) {
+                            b =(int)(math.random() + 1 * r.moves.size;);
+                            String move = r.moves.get(b);
+                            move1/2 (whichever the bot is) (board, Integer.parseint(move.substring(0,1)), Integer.parseint(move.substring(1,2)));
+                            break;
+                        }
+
+                        */
                         System.out.println("From: ");
                         System.out.print("x: ");
                         int X1 = Integer.parseInt(scan.nextLine());
